@@ -8,8 +8,9 @@ namespace CSharpObjet
 {
     public class Voiture
     {
-        public string Couleur;
         private int vitessePrivee;
+
+        public string Couleur{ get; set; }
 
         public int Vitesse
         {
@@ -21,11 +22,6 @@ namespace CSharpObjet
             {
                 vitessePrivee = value;
             }
-        }
-
-        public void getCouleur()
-        {
-            Console.WriteLine(this.Couleur);
         }
 
         public void Kalxonner()
